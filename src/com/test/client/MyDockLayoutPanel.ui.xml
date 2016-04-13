@@ -21,10 +21,7 @@
             background-color: #FFC;
         } 
 	</ui:style>
-	<g:HTMLPanel>
-		Hello,
-		<g:Button styleName="{style.important}" ui:field="button" />
-	</g:HTMLPanel>
+
 	
 	     <g:docklayoutpanel unit="EM">
        <g:north size="5">

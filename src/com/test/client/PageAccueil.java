@@ -7,6 +7,7 @@ import com.google.gwt.user.client.ui.LayoutPanel;
 import com.google.gwt.user.client.ui.Panel;
 import com.google.gwt.user.client.ui.RootLayoutPanel;
 import com.google.gwt.user.client.ui.SplitLayoutPanel;
+import com.google.gwt.user.client.ui.VerticalPanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.gwt.dom.client.*;
 import com.google.gwt.dom.client.Style.BorderStyle;
@@ -27,6 +28,11 @@ public class PageAccueil implements EntryPoint {
 	LayoutPanel p = new LayoutPanel();
 	RootLayoutPanel rp = RootLayoutPanel.get();
 	DockLayoutPanel sp = new DockLayoutPanel(Style.Unit.EM);
+	//MyDockLayoutPanel testPan = new MyDockLayoutPanel();
+	HelloWorld hw = new HelloWorld("coucou");
+	VerticalPanel vP = new VerticalPanel();
+	
+	vP.add(hw);
 	
 	//sousmenu_g.getElement().getStyle().setBackgroundColor("#FF0000");
 	//sousmenu_g.setWidth("1");	
@@ -57,7 +63,6 @@ public class PageAccueil implements EntryPoint {
 	
 	sp.addSouth(w_footer, 2);
     sp.addWest(w_menu, 18);
-   // sp.getElement().getStyle().setBorderStyle((BorderStyle) BorderFactory.createEmptyBorder(10, 10, 10, 10));
     //p.setWidgetLeftWidth(w_menu, 0, Style.Unit.PCT, 40, Style.Unit.PCT);
     p.setWidgetRightWidth(w_cases, 0, Style.Unit.PCT, 6, Style.Unit.PCT);
     //p.setWidgetBottomHeight(w_footer, 0, Style.Unit.PCT, 4, Style.Unit.PCT);
@@ -68,6 +73,7 @@ public class PageAccueil implements EntryPoint {
     
     //rp.add(p);    
     rp.add(sp);
+    //rp.add(vP);
   
 	}
 		

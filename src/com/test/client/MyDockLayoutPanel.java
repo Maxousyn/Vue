@@ -11,7 +11,7 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HasText;
 import com.google.gwt.user.client.ui.Widget;
 
-public class MyDockLayoutPanel extends Composite implements HasText {
+public class MyDockLayoutPanel extends Composite  {
 
 	private static MyDockLayoutPanelUiBinder uiBinder = GWT
 			.create(MyDockLayoutPanelUiBinder.class);
@@ -23,7 +23,8 @@ public class MyDockLayoutPanel extends Composite implements HasText {
 	public MyDockLayoutPanel() {
 		initWidget(uiBinder.createAndBindUi(this));
 	}
-
+	
+/*
 	@UiField
 	Button button;
 
@@ -44,5 +45,7 @@ public class MyDockLayoutPanel extends Composite implements HasText {
 	public String getText() {
 		return button.getText();
 	}
+*/
 
 }
+
