@@ -4,24 +4,22 @@ public class UserAgentImplIe10 implements com.google.gwt.useragent.client.UserAg
   
   public native String getRuntimeValue() /*-{
     var ua = navigator.userAgent.toLowerCase();
-    var makeVersion = function(result) {
-      return (parseInt(result[1]) * 1000) + parseInt(result[2]);
-    };
+    var docMode = $doc.documentMode;
     if ((function() { 
       return (ua.indexOf('webkit') != -1);
-})()) return 'safari';
+    })()) return 'safari';
     if ((function() { 
-      return (ua.indexOf('msie') != -1 && ($doc.documentMode >= 10));
-})()) return 'ie10';
+      return (ua.indexOf('msie') != -1 && (docMode >= 10 && docMode < 11));
+    })()) return 'ie10';
     if ((function() { 
-      return (ua.indexOf('msie') != -1 && ($doc.documentMode >= 9));
-})()) return 'ie9';
+      return (ua.indexOf('msie') != -1 && (docMode >= 9 && docMode < 11));
+    })()) return 'ie9';
     if ((function() { 
-      return (ua.indexOf('msie') != -1 && ($doc.documentMode >= 8));
-})()) return 'ie8';
+      return (ua.indexOf('msie') != -1 && (docMode >= 8 && docMode < 11));
+    })()) return 'ie8';
     if ((function() { 
-      return (ua.indexOf('gecko') != -1);
-})()) return 'gecko1_8';
+      return (ua.indexOf('gecko') != -1 || docMode >= 11);
+    })()) return 'gecko1_8';
     return 'unknown';
   }-*/;
   

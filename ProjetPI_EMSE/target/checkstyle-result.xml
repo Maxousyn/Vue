@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\application\ApplicationModule.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\application\ApplicationPresenter.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\application\ApplicationView.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\application\general\HomePresenter.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\application\general\HomeView.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\application\general\SetupPresenter.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\application\general\SetupView.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\gin\DemoModule.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\GwtBootstrap3DemoClientBundle.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\GwtBootstrap3DemoEntryPoint.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\place\NameTokens.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\ui\constants\Styles.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\ui\PrettyCode.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\java\com\viaxoft\mines\ProjetPI_EMSE\client\ui\PrettyPre.java">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\resources\org\hibernate\validator\ValidationMessages_en.properties">
+</file>
+<file name="C:\Users\Gaetan\workspace_test\ProjetPI_EMSE\src\main\resources\org\hibernate\validator\ValidationMessages_fr.properties">
+</file>
+</checkstyle>

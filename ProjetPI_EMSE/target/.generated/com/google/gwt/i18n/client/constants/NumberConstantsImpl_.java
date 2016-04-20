@@ -7,7 +7,7 @@ public class NumberConstantsImpl_ implements com.google.gwt.i18n.client.constant
   }
   
   public java.lang.String currencyPattern() {
-    return "¤#,##0.00;(¤#,##0.00)";
+    return "¤#,##0.00";
   }
   
   public java.lang.String decimalPattern() {
@@ -27,7 +27,7 @@ public class NumberConstantsImpl_ implements com.google.gwt.i18n.client.constant
   }
   
   public java.lang.String globalCurrencyPattern() {
-    return "¤¤¤¤#,##0.00 ¤¤;(¤¤¤¤#,##0.00) ¤¤";
+    return "¤¤¤¤#,##0.00 ¤¤";
   }
   
   public java.lang.String groupingSeparator() {
@@ -71,7 +71,7 @@ public class NumberConstantsImpl_ implements com.google.gwt.i18n.client.constant
   }
   
   public java.lang.String simpleCurrencyPattern() {
-    return "¤¤¤¤#,##0.00;(¤¤¤¤#,##0.00)";
+    return "¤¤¤¤#,##0.00";
   }
   
   public java.lang.String zeroDigit() {
