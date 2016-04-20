@@ -31,10 +31,10 @@ import com.viaxoft.mines.TEST_material_gwt.client.application.css.*;
 //import com.viaxoft.mines.TEST_material_gwt.client.application.css.validation.FormsWithValidationView;
 import com.viaxoft.mines.TEST_material_gwt.client.application.extras.*;
 */
-import com.viaxoft.mines.ProjetPI_EMSE.client.application.general.HomePresenter;
-import com.viaxoft.mines.ProjetPI_EMSE.client.application.general.HomeView;
-import com.viaxoft.mines.ProjetPI_EMSE.client.application.general.SetupPresenter;
-import com.viaxoft.mines.ProjetPI_EMSE.client.application.general.SetupView;
+import com.viaxoft.mines.ProjetPI_EMSE.client.application.general.LoginPagePresenter;
+import com.viaxoft.mines.ProjetPI_EMSE.client.application.general.LoginPageView;
+import com.viaxoft.mines.ProjetPI_EMSE.client.application.general.HomePagePresenter;
+import com.viaxoft.mines.ProjetPI_EMSE.client.application.general.HomePageView;
 
 /**
  * @author Joshua Godi
@@ -46,8 +46,8 @@ public class ApplicationModule extends AbstractPresenterModule {
         bindPresenter(ApplicationPresenter.class, ApplicationPresenter.MyView.class, ApplicationView.class, ApplicationPresenter.MyProxy.class);
 
         // General Views
-        bindPresenter(HomePresenter.class, HomePresenter.MyView.class, HomeView.class, HomePresenter.MyProxy.class);
-        bindPresenter(SetupPresenter.class, SetupPresenter.MyView.class, SetupView.class, SetupPresenter.MyProxy.class);
+        bindPresenter(LoginPagePresenter.class, LoginPagePresenter.MyView.class, LoginPageView.class, LoginPagePresenter.MyProxy.class);
+        bindPresenter(HomePagePresenter.class, HomePagePresenter.MyView.class, HomePageView.class, HomePagePresenter.MyProxy.class);
 /*
         // CSS Views
         bindPresenter(GridSystemPresenter.class, GridSystemPresenter.MyView.class, GridSystemView.class, GridSystemPresenter.MyProxy.class);

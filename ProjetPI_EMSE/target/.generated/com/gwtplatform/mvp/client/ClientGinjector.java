@@ -19,7 +19,11 @@ public interface ClientGinjector extends Ginjector {
   
   Provider<com.viaxoft.mines.ProjetPI_EMSE.client.application.ApplicationPresenter> getcomviaxoftminesProjetPI_EMSEclientapplicationApplicationPresenter();
   
+  AsyncProvider<com.viaxoft.mines.ProjetPI_EMSE.client.application.general.HomePagePresenter> getcomviaxoftminesProjetPI_EMSEclientapplicationgeneralHomePagePresenter();
+  
   AsyncProvider<com.viaxoft.mines.ProjetPI_EMSE.client.application.general.HomePresenter> getcomviaxoftminesProjetPI_EMSEclientapplicationgeneralHomePresenter();
+  
+  AsyncProvider<com.viaxoft.mines.ProjetPI_EMSE.client.application.general.LoginPagePresenter> getcomviaxoftminesProjetPI_EMSEclientapplicationgeneralLoginPagePresenter();
   
   AsyncProvider<com.viaxoft.mines.ProjetPI_EMSE.client.application.general.SetupPresenter> getcomviaxoftminesProjetPI_EMSEclientapplicationgeneralSetupPresenter();
 }
